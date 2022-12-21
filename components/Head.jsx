@@ -6,7 +6,7 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Elram Espra is an avid full stack web developer building websites and applications you'd love to use"
+        content="Elram Espra is an avid full stack web and mobile developer building websites and applications you'd love to use"
       />
       <meta
         name="keywords"
@@ -17,8 +17,8 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="A full-stack developer building websites that you'd like to use."
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:image" content="https://i.imgur.com/kmQQ690.png" />
+      <meta property="og:url" content="https://elram.dev" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
