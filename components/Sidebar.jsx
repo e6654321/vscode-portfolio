@@ -23,10 +23,6 @@ const sidebarTopItems = [
     path: '/projects',
   },
   {
-    Icon: PencilIcon,
-    path: '/articles',
-  },
-  {
     Icon: MailIcon,
     path: '/contact',
   },
@@ -70,8 +66,8 @@ const Sidebar = () => {
       </div>
       <div className={styles.sidebarBottom}>
         {sidebarBottomItems.map(({ Icon, path }) => (
-          <div className={styles.iconContainer}>
-            <Link href={path} key={path}>
+          <div className={styles.iconContainer} key={`bottom-${path}`}>
+            <Link href={path}>
               <Icon
                 fill={
                   router.pathname === path
